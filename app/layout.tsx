@@ -13,9 +13,13 @@ const raleway = Raleway({
 });
 
 export const metadata = {
-  title: "Dewansh Warjurkar Portfolio",
+  title: "Dewansh Warjurkar",
   description: "Web Developer Portfolio of Dewansh Warjurkar",
+  icons: {
+    icon: "https://avatars.githubusercontent.com/u/163340981?s=400&u=d0177588b3f69a45542156cf79387a389851cc00&v=4",
+  },
 };
+
 
 type RootLayoutProps = {
   children: ReactNode;
