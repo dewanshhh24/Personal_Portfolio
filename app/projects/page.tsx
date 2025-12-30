@@ -278,12 +278,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <style jsx>{`
-        @keyframes gradient {
-          0%, 100% { background-position: 0% 50%; }
-          50% { background-position: 100% 50%; }
-        }
-      `}</style>
+      
     </section>
   );
 }
