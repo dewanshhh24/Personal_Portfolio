@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from 'react';
 import ProfileCard from '../../portfolio-react/ProfileCard/ProfileCard';
 
