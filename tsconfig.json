@@ -16,7 +16,7 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "incremental": true,
     "plugins": [
       {
@@ -28,7 +28,8 @@
     "**/*.ts",
     "**/*.tsx",
     "next-env.d.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
@@ -50,8 +51,7 @@
         "responsive-8xl": "clamp(4.5rem, 10vw, 8rem)",
         "responsive-9xl": "clamp(5rem, 11vw, 9rem)",
         "responsive-10xl": "clamp(5.5rem, 12vw, 10rem)"
-      },
+      }
+    }
   }
-}
-
 }
