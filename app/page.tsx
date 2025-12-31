@@ -15,7 +15,7 @@ export default function Home() {
     <main className="text-[#ffe6c7] scroll-smooth">
       <ClickSpark>
       {/* Hero Section with Enhanced Bento Grid */}
-      <section id="home" className="min-h-screen py-20 px-4 mt-6 sm:px-6 flex items-center justify-center relative overflow-hidden">
+      <section id="home" className="min-h-screen py-20 px-4 mt-4 sm:px-6 flex items-center justify-center relative overflow-hidden">
         
         {/* Animated Background Gradient Orbs */}
         {/* <div className="absolute inset-0 overflow-hidden pointer-events-none">
