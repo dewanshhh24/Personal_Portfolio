@@ -288,13 +288,11 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-br from-[#f09433] via-[#e6683c] via-[#dc2743] via-[#cc2366] to-[#bc1888] rounded-full blur-xs group-hover:blur-sm transition-all duration-300"></div>
                     <div className="relative p-[3px] rounded-full bg-gradient-to-tr from-[#f09433] via-[#e6683c] via-[#dc2743] via-[#cc2366] to-[#bc1888] group-hover:scale-110 transition-all duration-300">
   <img 
-    src="/cinnnamo_roll.webp"
+    src="/cinnnamo_roll.jpg"
     alt="Content Creator"
     className="w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-full object-cover bg-[#001a28]"
   />
-</div>
-
-                    
+</div> 
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-base md:text-lg lg:text-2xl font-bold text-[#ffe6c7] mb-1">
