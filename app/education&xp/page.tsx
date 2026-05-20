@@ -48,90 +48,94 @@ export default function EducationExperience() {
   ];
 
   const experiences = [
-    {
-      title: "Open Source Contributor",
-      company: "GirlScript Summer of Code",
-      location: "Remote",
-      period: "Jul 2025 - Oct 2025",
-      type: "Open Source",
-      description: "Contributed to multiple open-source repositories under GSSoC, working on real-world features, bug fixes, and documentation improvements.",
-      responsibilities: [
-        "Fixed UI & functionality issues in React-based projects",
-        "Collaborated with mentors via GitHub PR reviews",
-        "Improved code quality and documentation",
-        "Worked with version control, issues, and deadlines"
-      ],
-      skills: ["Git","Github","Next.js", "React", "Tailwind CSS", "Node.js", "Open Source"],
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-        </svg>
-      )
-    },
-    {
-      title: "Technology Virtual Job Simulation",
-      company: "Deloitte Australia (via Forage)",
-      location: "Remote",
-      period: "Jul 2025",
-      type: "Virtual Experience",
-      description: "Completed Deloitte Australia’s Technology Virtual Job Simulation on Forage, gaining hands-on exposure to data integration, coding tasks, and dashboard proposal development.",
-      responsibilities: [
-        "Worked on data integration and transformation tasks.",
-        "Performed coding exercises aligned with real-world scenarios.",
-        "Prepared a short proposal outlining a dashboard solution.",
-        "Practiced problem-solving and technical communication"
-      ],
-      skills: ["Data Analysis", "Coding", "Dashboard Planning", "Technical Writing", "Problem Solving"],
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-        </svg>
-      )
-    },
-    
-    {
-  title: "Campus Ambassador",
-  company: "AXIS'24",
-  location: "Visvesvaraya National Institute of Technology, Nagpur",
-  period: "Mar 2024",
-  type: "Campus Role",
-  description: "Worked as a Campus Ambassador for AXIS'24, contributing to the promotion and coordination of technical events on campus.",
-  responsibilities: [
-    "Promoted technical events and competitions among students across campus",
-    "Assisted in organizing 5+ coding and technical competitions with 200+ participants",
-    "Coordinated with event organizers, volunteers, and participants to ensure smooth execution",
-    "Helped manage registrations, announcements, and on-ground event support",
-  ],
-  skills: ["Leadership", "Event Management", "Communication", "Team Coordination"],
-  icon: (
-    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-    </svg>
-  )
-},
-{
-  title: "Student Ambassador",
-  company: "Google (Gemini Program)",
-  location: "Shri Ramdeobaba College of Engineering and Management, Nagpur",
-  period: "Aug 2025 - Dec 2025",
-  type: "Campus Role",
-  description: "Selected as a Student Ambassador to promote awareness and adoption of Google Gemini among students on campus.",
-  responsibilities: [
-    "Promoted Google Gemini features and use-cases among students through peer interactions",
-    "Created awareness about AI-powered tools and their practical applications",
-    "Encouraged student participation by sharing updates, resources, and early-access benefits",
-    "Acted as a point of contact between the program and the student community",
-  ],
-  skills: ["Leadership", "Communication", "Community Engagement", "AI Awareness"],
-  icon: (
-    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-    </svg>
-  )
-}
+  {
+    title: "Java Programming Intern",
+    company: "CodeAlpha",
+    location: "Remote",
+    period: "Jan 2026",
+    type: "Internship",
+    description:
+      "Worked on Java-based desktop applications and strengthened concepts in object-oriented programming, GUI development, and file handling.",
+    responsibilities: [
+      "Built Java desktop applications using Swing and event-driven programming",
+      "Developed a Student Grade Tracker to calculate averages and performance metrics",
+      "Created a Hotel Reservation System with booking and cancellation workflows",
+      "Implemented file handling to store and retrieve reservation data"
+    ],
+    skills: [
+      "Java",
+      "Swing",
+      "OOP",
+      "File Handling",
+      "GUI Development",
+      "Problem Solving"
+    ],
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+    )
+  },
 
-    
-  ];
+  {
+    title: "Web Development Intern",
+    company: "Cognifyz Technologies",
+    location: "Remote",
+    period: "Jan 2026",
+    type: "Internship",
+    description:
+      "Worked on responsive frontend development and interactive UI components using modern web technologies.",
+    responsibilities: [
+      "Built responsive web pages using HTML, CSS, and JavaScript",
+      "Implemented navigation menus, modal dialogs, and form validation systems",
+      "Improved layout consistency using semantic HTML and reusable CSS structures",
+      "Enhanced debugging and version control workflows through iterative submissions"
+    ],
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive Design",
+      "Frontend Development",
+      "Git"
+    ],
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+      </svg>
+    )
+  },
+
+  {
+    title: "Open Source Contributor",
+    company: "GirlScript Summer of Code (GSSoC)",
+    location: "Remote",
+    period: "Jul 2025 - Oct 2025",
+    type: "Open Source",
+    description:
+      "Contributed to real-world open-source projects by improving UI components, fixing issues, and collaborating with mentors and contributors.",
+    responsibilities: [
+      "Contributed to React and Next.js based open-source repositories",
+      "Worked on frontend improvements, bug fixes, and UI optimization",
+      "Collaborated through GitHub pull requests and mentor reviews",
+      "Improved project documentation and code maintainability"
+    ],
+    skills: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Git",
+      "GitHub",
+      "Open Source",
+      "Collaboration"
+    ],
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+      </svg>
+    )
+  }
+];
 
   const getTypeColor = (type: string) => {
     const colors = {

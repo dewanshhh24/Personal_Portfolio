@@ -6,26 +6,84 @@ export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('All');
 
   const projects = [
-    {
-      title: 'Portfolio Website',
-      description: 'A modern, responsive portfolio built with Next.js featuring smooth animations and interactive components.',
-      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop',
-      tech: ['Next.js', 'React', 'Tailwind CSS', 'Framer Motion'],
-      github: 'https://github.com/dewanshhh24/Personal_Portfolio.git',
-      live: 'https://dewansh-portfolio.vercel.app',
-      category: 'Development',
-      featured: true
-    },
-    {
-      title: 'Movie Recommender System',
-      description: 'ML-powered recommendation engine that suggests movies based on user preferences and viewing history.',
-      image: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&h=600&fit=crop',
-      tech: ['Python', 'Flask', 'Scikit-learn', 'Pandas'],
-      github: 'https://github.com/dewanshhh24/movie-recommender',
-      live: '#',
-      category: 'Machine Learning',
-      featured: true
-    },
+  {
+    title: 'RIANS',
+    description:
+      'Risk-Based Intelligent Assistive Navigation System designed to help visually impaired users through real-time object detection, tracking, and contextual voice alerts.',
+    image:
+      'https://plus.unsplash.com/premium_photo-1672431629269-09ffbf545b10?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGFzc2lzdGl2ZSUyMGJsaW5kfGVufDB8fDB8fHww',
+    tech: ['Python', 'YOLO', 'OpenCV', 'ByteTrack'],
+    github: '#',
+    live: '#',
+    category: 'Machine Learning',
+    featured: true
+  },
+
+  {
+    title: 'MediSense AI',
+    description:
+      'AI-powered healthcare assistant focused on intelligent symptom analysis, medical recommendations, and accessible health insights.',
+    image:
+      'https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fGhvc3BpdGFsJTIwc2VudGltZW50fGVufDB8fDB8fHww',
+    tech: ['Next.js', 'Gemini API', 'Firebase', 'Tailwind CSS'],
+    github: '#',
+    live: '#',
+    category: 'Machine Learning',
+    featured: true
+  },
+
+  {
+    title: 'Blood Lens',
+    description:
+      'Computer vision-based blood analysis platform aimed at assisting in preliminary medical diagnostics using image processing techniques.',
+    image:
+      'https://plus.unsplash.com/premium_photo-1754211644057-e9d8c758bc41?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGJsb29kJTIwY2FuY2VyfGVufDB8fDB8fHww',
+    tech: ['Python', 'OpenCV', 'TensorFlow', 'Flask'],
+    github: '#',
+    live: '#',
+    category: 'Machine Learning',
+    featured: true
+  },
+
+  {
+    title: 'VentIQ',
+    description:
+      'Smart AI-driven HVAC optimization platform designed to improve airflow efficiency, environmental monitoring, and intelligent ventilation management.',
+    image:
+      'https://media.istockphoto.com/id/2275599712/photo/air-conditioner-condenser-unit-compressor-on-facade-of-building-unit-of-central-ac-conditioner.webp?a=1&b=1&s=612x612&w=0&k=20&c=fmoxjiPb2v4XeGbAhwOYE8DUVj-jqaBvq97h_A-OyFs=',
+    tech: ['Next.js', 'Firebase', 'AI Integration', 'Tailwind CSS'],
+    github: '#',
+    live: '#',
+    category: 'Machine Learning',
+    featured: true
+  },
+
+  {
+    title: 'Portfolio Website',
+    description:
+      'A modern and fully responsive portfolio website built from scratch with smooth animations, project showcases, and integrated contact functionality.',
+    image:
+      'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop',
+    tech: ['Next.js', 'React', 'Tailwind CSS', 'Framer Motion'],
+    github: 'https://github.com/dewanshhh24/Personal_Portfolio.git',
+    live: 'https://dewanshhh24.vercel.app',
+    category: 'Development',
+    featured: true
+  },
+
+  {
+    title: 'GoShop',
+    description:
+      'A full-stack e-commerce platform featuring seamless shopping experience, authentication, product management, and order handling.',
+    image:
+      'https://plus.unsplash.com/premium_photo-1681488262364-8aeb1b6aac56?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fHww',
+    tech: ['Next.js', 'Firebase', 'MongoDB', 'Tailwind CSS'],
+    github: 'https://github.com/dewanshhh24/GoShop.git',
+    live: '#',
+    category: 'Development',
+    featured: false
+  }
+];
     // {
     //   title: 'Nutrition AI Assistant',
     //   description: 'AI-powered nutrition tracker that analyzes meals and provides personalized dietary recommendations.',
@@ -58,15 +116,15 @@ export default function Projects() {
     //   featured: false
     // },
     {
-      title: 'GoShop',
-      description: 'A full-stack e-commerce platform offering seamless shopping, and complete product & order management.',
-      image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=600&fit=crop',
-      tech: ['Next.js', 'Firebase', 'MongoDB', 'Tailwind'],
-      github: 'https://github.com/dewanshhh24/GoShop.git',
-      live: '#',
-      category: 'Development',
-      featured: false
-    },
+    //   title: 'GoShop',
+    //   description: 'A full-stack e-commerce platform offering seamless shopping, and complete product & order management.',
+    //   image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=600&fit=crop',
+    //   tech: ['Next.js', 'Firebase', 'MongoDB', 'Tailwind'],
+    //   github: 'https://github.com/dewanshhh24/GoShop.git',
+    //   live: '#',
+    //   category: 'Development',
+    //   featured: false
+    // },
     // {
     //   title: 'Sentiment Analysis Tool',
     //   description: 'NLP-based tool that analyzes text sentiment from social media posts and customer reviews.',
@@ -77,41 +135,41 @@ export default function Projects() {
     //   category: 'Machine Learning',
     //   featured: false
     // },
-    {
-      title: 'CampusGPT',
-      description: 'An All-in-one GenAI assistant for syllabus, exams, resources, and career guidance on campus.',
-      image: 'https://images.unsplash.com/photo-1659018966820-de07c94e0d01?q=80&w=898&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      tech: ['Next.js', 'Firebase', 'Gemini', 'Tailwind CSS'],
-      github: 'https://github.com/dewanshhh24/CampusGPT.git',
-      live: '#',
-      category: 'Machine Learning',
-      featured: false
-    },
-    {
-  title: 'Marvel Comic Library',
-  description: 'A web-based application that allows users to browse, search, and explore Marvel comics.',
-  image: 'https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  tech: ['React', 'JavaScript', 'Marvel API', 'CSS'],
-  github: 'https://github.com/dewanshhh24/Marvel.git',
-  live: '#',
-  category: 'Development',
-  featured: false
-},
-{
-  title: 'Credit Card Fraud Detection',
-  description: 'Machine learning-based system to detect fraudulent credit card transactions by analyzing transaction patterns and anomalies.',
-  image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop',
-  tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn'],
-  github: 'https://github.com/dewanshhh24/credit-card-fraud-detection-ml.git',
-  live: '#',
-  category: 'Machine Learning',
-  featured: false
-}
+//     {
+//       title: 'CampusGPT',
+//       description: 'An All-in-one GenAI assistant for syllabus, exams, resources, and career guidance on campus.',
+//       image: 'https://images.unsplash.com/photo-1659018966820-de07c94e0d01?q=80&w=898&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+//       tech: ['Next.js', 'Firebase', 'Gemini', 'Tailwind CSS'],
+//       github: 'https://github.com/dewanshhh24/CampusGPT.git',
+//       live: '#',
+//       category: 'Machine Learning',
+//       featured: false
+//     },
+//     {
+//   title: 'Marvel Comic Library',
+//   description: 'A web-based application that allows users to browse, search, and explore Marvel comics.',
+//   image: 'https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+//   tech: ['React', 'JavaScript', 'Marvel API', 'CSS'],
+//   github: 'https://github.com/dewanshhh24/Marvel.git',
+//   live: '#',
+//   category: 'Development',
+//   featured: false
+// },
+// {
+//   title: 'Credit Card Fraud Detection',
+//   description: 'Machine learning-based system to detect fraudulent credit card transactions by analyzing transaction patterns and anomalies.',
+//   image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop',
+//   tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn'],
+//   github: 'https://github.com/dewanshhh24/credit-card-fraud-detection-ml.git',
+//   live: '#',
+//   category: 'Machine Learning',
+//   featured: false
+// }
 
 
 
 
-  ];
+  
 
   const categories = ['All', 'Development', 'Machine Learning'];
 
@@ -281,4 +339,5 @@ export default function Projects() {
       
     </section>
   );
+}
 }

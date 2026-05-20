@@ -51,7 +51,7 @@ export default function Resume() {
           <div className="flex-1 space-y-8 text-center lg:text-left">
             <div>
               <h2 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-tight pb-2 bg-linear-to-r from-[#3a86ff] via-[#06ffa5] to-[#3a86ff] bg-clip-text text-transparent mb-4 animate-[gradient_3s_ease_infinite] bg-size-[200%_auto]">
-                Résumé
+                Curriculum Vitae
               </h2>
               <div className="h-1 w-32 bg-linear-to-r from-[#3a86ff] to-[#06ffa5] mx-auto lg:mx-0 rounded-full"></div>
             </div>
@@ -64,14 +64,14 @@ export default function Resume() {
             {/* CTA BUTTONS */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="/Resume_DewanshWarjurkar.pdf"
+                href="/DewanshWarjurkar_CV.pdf"
                 download
                 className="group relative inline-flex items-center justify-center gap-3 bg-linear-to-r from-[#3a86ff] to-[#06ffa5] text-white px-8 py-4 rounded-xl font-semibold text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-[#3a86ff]/30"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 group-hover:animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
-                Download Résumé
+                Download CV
               </a>
               
               <a

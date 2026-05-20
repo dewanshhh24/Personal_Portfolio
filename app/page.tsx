@@ -68,13 +68,13 @@ export default function Home() {
               <div className="relative bg-gradient-to-br from-[#00202f] to-[#001a28] rounded-2xl border-2 border-[#3a86ff]/40 overflow-hidden  ">
                 <div className="absolute inset-0 bg-gradient-to-t from-[#00202f] via-transparent to-transparent opacity-60 z-10"></div>
                 <img 
-                  src="/profile-headshot.jpg"
+                  src="/profile-headshot3.png"
                   alt="Dewansh Warjurkar"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute bottom-4 left-4 right-4 z-20">
                   <div className="bg-[#00202f]/80 backdrop-blur-md px-4 py-2 rounded-lg border border-[#3a86ff]/30">
-                    <p className="text-sm font-semibold text-[#ffe6c7]">Full Stack Developer</p>
+                    <p className="text-sm font-semibold text-[#ffe6c7]">Java Developer</p>
                     <p className="text-xs text-gray-400">AI/ML Enthusiast</p>
                   </div>
                 </div>
@@ -261,7 +261,7 @@ export default function Home() {
                   </div>
                   <div className="w-full md:w-auto flex justify-center md:justify-center mt-2 md:mt-0">
                     <a 
-                      href="/Resume_DewanshWarjurkar.pdf" 
+                      href="/DewanshWarjurkar_CV.pdf" 
                       download
                       className="relative group/btn overflow-hidden px-5 md:px-6 py-2 md:py-3 rounded-lg text-sm md:text-base font-semibold whitespace-nowrap"
                     >

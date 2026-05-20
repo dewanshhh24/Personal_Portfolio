@@ -10,6 +10,14 @@ export default function Certificates() {
       skills: ["Open Source", "Git", "GitHub", "Collaboration", "Code Reviews"],
       link: "https://drive.google.com/file/d/1x3DZWeIEqsFg-YcLRPmkCV2XfRV7Wobk/view?usp=sharing"
     },
+        {
+      title: "Orange Promptathon 2026",
+      issuer: "Carrier, Infocepts, Nasscom",
+      platform: "Hackathon",
+      date: "May 2026",
+      skills: ["Problem Solving", "Teamwork", "Rapid Prototyping", "Innovation"],
+      link: "https://drive.google.com/file/d/1E-2Hqjcm9UDGWu0Wkx8Gz_m7be3rbYKH/view?usp=sharing"
+    },
     {
       title: "Technology Virtual Job Simulation",
       issuer: "Deloitte Australia",
@@ -25,14 +33,6 @@ export default function Certificates() {
       date: "Oct 2025",
       skills: ["Google Cloud", "Cloud Fundamentals", "Hands-on Labs", "Cloud Tools"],
       link: "https://drive.google.com/file/d/1Uqg1wzZguuiGnj7KMoMLgLj5iZbqFkOf/view?usp=sharing"
-    },
-    {
-      title: "Build With India Hackathon",
-      issuer: "Hack With India",
-      platform: "Hackathon",
-      date: "Mar 2025",
-      skills: ["Problem Solving", "Teamwork", "Rapid Prototyping", "Innovation"],
-      link: "https://drive.google.com/file/d/1E-2Hqjcm9UDGWu0Wkx8Gz_m7be3rbYKH/view?usp=sharing"
     },
     {
       title: "Machine Learning & IoT Workshop",
