@@ -13,7 +13,7 @@ export default function Projects() {
     image:
       'https://plus.unsplash.com/premium_photo-1672431629269-09ffbf545b10?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGFzc2lzdGl2ZSUyMGJsaW5kfGVufDB8fDB8fHww',
     tech: ['Python', 'YOLO', 'OpenCV', 'ByteTrack'],
-    github: '#',
+    github: 'https://github.com/Shreyaraut12/Mini_Project_RIANS.git',
     live: '#',
     category: 'Machine Learning',
     featured: true
