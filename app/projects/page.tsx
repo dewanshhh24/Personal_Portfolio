@@ -26,7 +26,7 @@ export default function Projects() {
     image:
       'https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fGhvc3BpdGFsJTIwc2VudGltZW50fGVufDB8fDB8fHww',
     tech: ['Next.js', 'Gemini API', 'Firebase', 'Tailwind CSS'],
-    github: '#',
+    github: 'https://github.com/dewanshhh24/Sentiment_Analysis_Hospital_Reviews.git',
     live: '#',
     category: 'Machine Learning',
     featured: true
@@ -39,7 +39,7 @@ export default function Projects() {
     image:
       'https://plus.unsplash.com/premium_photo-1754211644057-e9d8c758bc41?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGJsb29kJTIwY2FuY2VyfGVufDB8fDB8fHww',
     tech: ['Python', 'OpenCV', 'TensorFlow', 'Flask'],
-    github: '#',
+    github: 'https://github.com/dewanshhh24/BloodLens.git',
     live: '#',
     category: 'Machine Learning',
     featured: true
@@ -52,7 +52,7 @@ export default function Projects() {
     image:
       'https://media.istockphoto.com/id/2275599712/photo/air-conditioner-condenser-unit-compressor-on-facade-of-building-unit-of-central-ac-conditioner.webp?a=1&b=1&s=612x612&w=0&k=20&c=fmoxjiPb2v4XeGbAhwOYE8DUVj-jqaBvq97h_A-OyFs=',
     tech: ['Next.js', 'Firebase', 'AI Integration', 'Tailwind CSS'],
-    github: '#',
+    github: 'https://github.com/sarthakghavghave/hvac-recommendation-system.git',
     live: '#',
     category: 'Machine Learning',
     featured: true
