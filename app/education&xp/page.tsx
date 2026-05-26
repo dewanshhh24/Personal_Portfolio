@@ -11,7 +11,7 @@ export default function EducationExperience() {
       institution: "Shri Ramdeobaba College of Engineering and Management",
       location: "Nagpur, Maharashtra",
       period: "2023 - 2027",
-      grade: "CGPA: 8.63",
+      grade: "CGPA: 8.81",
       description: "Specialized in AI/ML with focus on deep learning, natural language processing, and computer vision.",
       highlights: [
         
